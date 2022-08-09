@@ -1,6 +1,6 @@
-**judge.alon.kr**
+##judge.alon.kr
 
-Custom training website for our team.
+**Custom training website for our team**
 
 _Done:_
 

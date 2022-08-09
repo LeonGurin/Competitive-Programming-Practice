@@ -8,5 +8,5 @@ typedef long long ll;
 int main(){
     int n;
     cin >> n;
-
+    
 }
