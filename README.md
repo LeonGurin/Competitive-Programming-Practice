@@ -1,4 +1,4 @@
-#Competitive Programming Exercises
+# Competitive Programming Exercises
 ___
 
 A catalouge of my solutions for various problems in competitive programming.
