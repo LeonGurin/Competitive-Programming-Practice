@@ -6,6 +6,6 @@ _Done:_
 
 | Problem Name | Date 
 | ------------ | -----
-| [עצרת!](https://github.com/LeonGurin/Competitive-Programming-Practice/tree/main/CSES/עצרת!) | 9.8.2022
+| [עצרת!](https://github.com/LeonGurin/Competitive-Programming-Practice/tree/main/judge.alon.kr/%D7%A2%D7%A6%D7%A8%D7%AA!) | 9.8.2022
 | [מבצע](https://github.com/LeonGurin/Competitive-Programming-Practice/tree/main/CSES/!) | 9.8.2022
 | 
