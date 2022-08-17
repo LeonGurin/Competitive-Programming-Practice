@@ -4,16 +4,17 @@ using namespace std;
 #define all(x) x.begin(),x.end()
 #define vi vector<int>
 typedef long long ll;
+#define vl vector<ll>
 
 int main(){
-    int n,q;
+    ll n,q;
     cin >> n >> q;
-    vi arr(n);
+    vl arr(n);
     fori(i,n) cin >> arr[i];
 
     sort(all(arr)); //sort item array
     
-    vi prefix(n);
+    vl prefix(n);
     fori(i,n){
         if(i==0) prefix[i] = arr[i];
         else{
@@ -24,9 +25,10 @@ int main(){
     fori(i,q){
         int x,y; //x = #of items bought, y = #of items free
         cin >> x >> y;
-        if(x < 0 || y>x) cout << "This question was not designed with this bug in mind" << endl;
+        if(x<0 || y>x) cout << "This question was not designed with this bug in mind" << endl;
         else if(x==0) cout << 0 << endl;
         else if(x==1 && y==1) cout << arr[n-1] << endl;
+        else if(x==n) cout << prefix[n-x-1+y] << endl;
         else{
             cout << prefix[n-x-1+y] - prefix[n-x-1] << endl;
         }

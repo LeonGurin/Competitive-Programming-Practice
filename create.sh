@@ -29,12 +29,22 @@ do
     fi
 
 done
-# echo $dirnameFull
 
 mkdir "$dirnameFull"
 
 cd "$dirnameFull"
 
 touch README.md
-touch main.cpp
 touch testInput.txt
+touch main.cpp
+echo """#include <bits/stdc++.h>
+#define fori(i,n) for(int i=0; i<n; i++)
+using namespace std;
+typedef long long ll;
+#define vi vector<int>
+#define all(x) x.begin(), x.end()
+
+int main(){
+
+}
+""" > main.cpp
