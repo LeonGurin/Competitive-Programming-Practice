@@ -1,6 +1,7 @@
 # Missing Number
 
 _Time limit: 1.00 s Memory limit: 512 MB_
+
 You are given all numbers between 1,2,…,n except one. Your task is to find the missing number.
 
 *Input*
@@ -14,6 +15,7 @@ The second line contains n−1 numbers. Each number is distinct and between 1 an
 Print the missing number.
 
 *Constraints*
+
 * 2 ≤ n ≤ 2e5
 
 ___
@@ -34,11 +36,9 @@ int main(){
         int input;
         cin >> input;
         iarr[input] = 1;
-        // cout << input << endl;
     }
 
     auto it = find(iarr.begin()+1, iarr.end(), 0);
     cout << it - iarr.begin() << endl;
-
 }
 ```

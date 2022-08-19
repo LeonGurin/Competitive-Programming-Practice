@@ -13,10 +13,8 @@ int main(){
         int input;
         cin >> input;
         iarr[input] = 1;
-        // cout << input << endl;
     }
 
     auto it = find(iarr.begin()+1, iarr.end(), 0);
     cout << it - iarr.begin() << endl;
-
 }
