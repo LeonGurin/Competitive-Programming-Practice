@@ -1,15 +1,15 @@
 #include <bits/stdc++.h>
-#define fori(i,n) for(int i=0; i<n; i++)
 using namespace std;
-typedef long long ll;
+#define int int64_t
+#define fori(i,n) for(int i=0; i<n; i++)
 #define vi vector<int>
 #define all(x) x.begin(), x.end()
 
-int main(){
+int32_t main() {
     int n,x;
     cin >> n >> x;
     list<int> list;
-    ll sum = 0;
+    int sum = 0;
     int count = 0;
     fori(i,n){
         int inp; cin >> inp;
