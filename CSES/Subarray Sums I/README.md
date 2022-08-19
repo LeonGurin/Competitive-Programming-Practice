@@ -14,7 +14,9 @@ _Output_
 Print one integer: the required number of subarrays.
 
 _Constraints_
+
 1≤n≤2⋅e5
+
 1≤x,ai≤e9
 
 ___
