@@ -8,7 +8,7 @@ integer n
 
 *output*
 
-number of ways to arrange them in a row
+number of ways to arrange them in a row. 
 
 ___
 
