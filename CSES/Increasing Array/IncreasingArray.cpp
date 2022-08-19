@@ -17,11 +17,9 @@ int main(){
     while(i != n){
         if(arr[i] < arr[i-1]){
             count += arr[i-1] - arr[i];
-            // cout << arr[i-1] - arr[i] << endl;
             arr[i] = arr[i-1];
         }
         i++;
     }
     cout << count << endl;
-
 }
