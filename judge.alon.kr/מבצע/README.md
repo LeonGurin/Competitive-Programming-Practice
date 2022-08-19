@@ -14,7 +14,7 @@ q rows after that: values of x and y
 
 *output*
 
-For each row calculate the money saved.
+For each row calculate the money saved. 
 
 ___
 
