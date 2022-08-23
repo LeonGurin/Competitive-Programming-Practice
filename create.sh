@@ -4,12 +4,14 @@
 dirnameFull=""
 
 echo "Select where you want to create a program"
-read -p "Type 1) for CSES and 2) for judege.alon.kr: " choise
+read -p "Type 1) for CSES, 2) for judege.alon.kr and 3) for CodeForces: " choise
 
 if [ $choise == 1 ] ; then
     dir="CSES"
 elif [ $choise == 2 ] ; then
     dir="judege.alon.kr"
+elif [ $choise == 3 ] ; then
+    dir="CodeForces"
 else
     echo "Invalid input"
     exit 1
