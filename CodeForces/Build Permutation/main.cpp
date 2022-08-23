@@ -21,15 +21,9 @@ int32_t main() {
             set.insert(j);
         }
         if(inp == 2) maxP = 1;
-        // fori(p,inp){
-        //     cout << numb[p] << " ";
-        // } cout << endl;
-
-        // cout << "maxP: " << maxP << endl;
 
         for(int j=inp-1; j>=0; j--){
             for(int k=maxP; k>=0; k--){
-                // cout << "k: " << k << endl;
                 if(set.find(numb[k]-j) != set.end()){
                     arr[j] = numb[k]-j;
                     set.erase(numb[k]-j);
