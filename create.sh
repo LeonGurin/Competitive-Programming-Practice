@@ -50,7 +50,7 @@ int32_t main() {
     
 } 
 """ > main.cpp
-touch makeRun.sh
+touch run.sh
 echo """g++ main.cpp
 ./a.out < testInput.txt
-""" > makeRun.sh
+""" > run.sh
