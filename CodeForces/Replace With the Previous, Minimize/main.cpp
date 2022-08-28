@@ -16,15 +16,16 @@ int32_t main() {
                 index = i;
             }
         }
-        while(index < size && s[index] != 'a' && k != 0){
+        while(index < size && k != 0){
+            while(s[index] == 'a' && index < size){
+                index++;
+            }
             char cur = s[index];
             char rep = s[index]-1;
             for(int l=0; l<size; l++){
                 if(s[l] == cur){
                     s[l] = rep;
                 }
-            }if(s[index] == 'a'){
-                index++;
             }k--;
         } cout << s << endl;
     }

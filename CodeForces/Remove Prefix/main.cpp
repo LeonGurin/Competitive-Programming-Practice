@@ -10,27 +10,29 @@ int32_t main() {
     fori(i,t){
         int n; cin >> n;
         multiset<int> mset;
-        vi arr;
+        list<int> list;
         int check = 0;
+        int count = 0;
         fori(j,n){
             int inp; cin >> inp;
             mset.insert(inp);
-            arr.push_back(inp);
+            list.push_back(inp);
         }
-        for(int k=n-1; k>=0; k--){
-            if(mset.count(arr[k]) > 1){
-                for(int p=k-1; p>=0; p--){
-                    if(arr[p] == arr[k]){
-                        cout << p+1 << endl;
-                        // for(int test = j; test>=0; test--) cout << arr[test] << " ";
-                        // cout << endl;
-                        check = 1; p = -1; k = -1;
-                    }
-                }
-            }
-        } if(check == 0){
-            cout << 0 << endl;  
-        }
+
+        
+
+        // for(int k=n-1; k>=0; k--){
+        //     if(mset.count(arr[k]) > 1){
+        //         for(int p=k-1; p>=0; p--){
+        //             if(arr[p] == arr[k]){
+        //                 cout << p+1 << endl;
+        //                 check = 1; p = -1; k = -1;
+        //             }
+        //         }
+        //     }
+        // } if(check == 0){
+        //     cout << 0 << endl;  
+        // }
     }
 } 
 
