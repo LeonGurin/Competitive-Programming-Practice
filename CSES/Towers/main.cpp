@@ -14,9 +14,6 @@ int32_t main() {
         arr[i] = inp;
     }
 
-    // fori(k,n) cout << arr[k] << " ";
-    // cout << endl;
-
     int count = 0;
     int k = 0;
     fori(j,n){
@@ -28,10 +25,6 @@ int32_t main() {
             set.erase(it);
             set.insert(arr[j]);
         }
-
-        // for(auto x : set) cout << x << " ";
-        // cout << endl;
-
     }
     cout << count << endl;
 } 

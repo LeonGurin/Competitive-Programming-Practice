@@ -13,5 +13,5 @@ _Done:_
 | [Permutations](https://github.com/LeonGurin/Competitive-Programming-Practice/tree/main/CSES/Permutations) | 19.8.2022 | ✅
 | [Subarray Sums II](https://github.com/LeonGurin/Competitive-Programming-Practice/tree/main/CSES/Subarray%20Sums%20II) |  | ❌
 | [Fibonacci Numbers]() |  | ❌
-| [Towers](https://github.com/LeonGurin/Competitive-Programming-Practice/tree/main/CSES/Towers)
+| [Towers](https://github.com/LeonGurin/Competitive-Programming-Practice/tree/main/CSES/Towers) | 2.9.2022 | ✅
 
